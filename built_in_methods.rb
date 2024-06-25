@@ -46,7 +46,16 @@ puts first_name.start_with?("J")
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
+# Declearing both variables
+Dog = 5
+Cat = 3
+# Imputting methods of the dog and cot variables
+    def animal_count(Dog)
+         "There should be 5 dogs, 3 cats and I see" (Dog)
+    end
 
+# Outputting
+    puts "There should be 5 dogs, 3 cats and I see 5."
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
@@ -54,3 +63,14 @@ puts first_name.start_with?("J")
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# Declare 2 variables assigned to arrays
+array1 = Array.new(['John', 'Mary'])
+array2 = Array.new(['David', 'Maria'])
+
+# Removes and returns trailing
+popped_array1 = array1.popped_array1
+
+# Outputting
+puts "Array1: #{array1}"
+puts "Popped element from array1: #{popped_array1}"
